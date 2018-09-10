@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* Week04 WAD Assignment
+*/
+
+html {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+nav {
+    box-shadow: 0px 2px 2px #9E9E9E;
+}
+
+body {
+    background-color: #E3F2FD;
+    text-align: center;
+    position: relative;
+    margin: 0px;
+}
+
+#alert_box {
+    width: 100%
+}
+
+#alert_box #error_msg {
+    color: #F44336
+}
+
+#title {
+    text-align: center;
+    font-size: 32px;
+    background-color: #3F51B5;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#content {
+    margin: 16px auto;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+}
+
+table {
+    text-align: left;
+    display: table;
+    vertical-align: middle;
+    line-height: 28px;
+    border-spacing: 16px;
+    border-collapse: separate;
+}
+
+#calc_button {
+    width: 160px;
+    padding: 10px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 16px;
+    color: #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: white;
+    cursor: pointer;
+}
+
+#calc_button:hover {
+    background-color: #F7F7F7;
+}
+
+#calc_button img {
+    float: left;
+}
+
+#result {
+    height: 56px;
+    text-shadow: 0px 0px 1px black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid
+}
+
+input {
+    padding-left: 8px;
+    padding-right: 8px;
+}

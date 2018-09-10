@@ -1,0 +1,25 @@
+{
+  "name": "frontend_client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2.git"
+  },
+  "author": "Genius Doan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2/issues"
+  },
+  "homepage": "https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "jquery": "^3.2.1",
+    "morgan": "^1.9.0"
+  }
+}

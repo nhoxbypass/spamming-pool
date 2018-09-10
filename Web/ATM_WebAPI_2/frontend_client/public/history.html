@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Transaction history</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="background-color: #BBDEFB; text-align: center;">
+
+
+		<div style="width: 100%; text-align: center;">
+			<button id="user_infor" onclick="dashboard()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">Dashboard</button>
+			<button id="user_infor" onclick="user_info()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">User Information</button>
+			<button id="withdraw" onclick="withdraw()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">Withdraw</button>
+			<button id="transfer" onclick="transfer()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">transfer</button>
+			<button id="internal_transfer" onclick="internal_transfer()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">internal_transfer</button>
+			<button id="transfer" onclick="history()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">history</button>
+		</div>
+				<h1>HISTORY</h1>
+
+		<div  style="text-align: center; overflow:scroll; height: 100%; margin-top: 24px; ">
+			<table border="1" id="list" style="width: 100%;">
+				<tr style="height: 50px;">
+						<td>Service type</td>
+						<td>time</td>
+						<td>receive ID</td>
+						<td>Amount of money</td>
+						<td>Service fee</td>
+					</tr>
+			
+		</table>
+	</div>
+	<script src="/assets/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$.ajax({
+		          url: 'http://localhost:3000/account/isLogined',
+		          dataType: 'json',
+		          timeout: 10000
+		        }).done(function(data){
+		          if (data.message == "fail"){
+		              alert("You need to login first!");
+		              window.location = `./`;
+		          }
+		        });
+
+			$.ajax({
+				url: 'http://localhost:3000/account/history',
+				dataType: 'json',
+          		timeout: 10000
+			}).done(function(data){
+				// console.log(data);
+				$.each(data, function(idx, c) {
+					var receiveId = c.receiver_id;
+					var tr = '<tr style="height: 50px;">';
+					if (receiveId == null){
+						tr += '<td>'+"Withdraw"+'</td>';
+					}else{
+						tr += '<td>'+"Transfer"+'</td>';
+					}
+
+					tr = tr+  '<td>'+c.time+'</td>'
+					+ '<td>'+c.receiver_id+'</td>'
+					+ '<td>'+c.amount+'</td>'
+					+ '<td>'+c.fee+'</td></tr>';											
+					
+					$('#list').append(tr);
+				});				
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		function withdraw(){
+			window.location = `./withdraw`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function history(){
+			window.location = `./history`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function user_info(){
+			window.location = `./user_info`;
+		}
+	</script>
+
+<script type="text/javascript">
+		function internal_transfer(){
+			window.location = `./internal_transfer`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function transfer(){
+			window.location = `./transfer`;
+		}
+	</script>
+	<script type="text/javascript">
+			function dashboard(){
+				window.location = `./dashboard`;
+			}
+		</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "atm-webapi-2",
+  "version": "1.0.0",
+  "description": "A simple Web api 2.0 for provide services as an ATM",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2.git"
+  },
+  "keywords": [
+    "expressjs",
+    "webapi2"
+  ],
+  "bugs": {
+    "url": "https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2/issues"
+  },
+  "homepage": "https://github.com/HCMUS-IceTeaViet-SE/ATM-WebAPI-2#readme",
+  "author": "GeniusDoan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.14.1",
+    "q": "^1.5.0"
+  }
+}

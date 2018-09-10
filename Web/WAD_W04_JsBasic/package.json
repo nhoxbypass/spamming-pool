@@ -1,0 +1,28 @@
+{
+  "name": "wad_w05_expressjs",
+  "version": "1.0.0",
+  "description": "Simple calculator make with expressjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HCMUS-IceTeaViet-SE/WAD_W04_JsBasic.git"
+  },
+  "keywords": [
+    "expressjs",
+    "example",
+    "head",
+    "first"
+  ],
+  "author": "Genius Doan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HCMUS-IceTeaViet-SE/WAD_W04_JsBasic/issues"
+  },
+  "homepage": "https://github.com/HCMUS-IceTeaViet-SE/WAD_W04_JsBasic#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

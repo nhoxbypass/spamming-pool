@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Genius ATM</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="background-color: #BBDEFB">
+		<div class="login" style="text-align: center; font-size: 20px;">
+			<h1>Login</h1>
+				<p style="color: red;"></p>
+		    	<input style="width: 400px; height: 50px;  font-size: 24px;" type="text" name="account_id" id="account_id" placeholder="Account number" required="required" />
+		    	<br/>
+		    	<input style="width: 400px; height: 50px; margin-top: 16px; font-size: 24px;" type="password" id="pinCode" name="pinCode" placeholder="Pin code" required="required" />
+		    	<br/>
+		        <button style="width: 400px; height: 50px; margin-top: 16px; border-style: none; background-color: #1A5276; color: rgb(255,255,255);  font-size: 24px;" type="submit" id="btnLogin" class="btn btn-primary btn-block btn-large">Log in</button>
+		</div>
+	<script src="/assets/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$('#btnLogin').on('click', function(){			
+			var id = document.getElementById("account_id").value;
+			var pin = document.getElementById("pinCode").value;
+			var postUrl = `http://localhost:3000/account/login?account_id=${id}&pinCode=${pin}`;
+		
+			$.ajax({
+				url: postUrl,
+				dataType: 'json',
+	            type:'POST',
+	            timeout: 10000
+			}).done(function(data) {
+				console.log(data);
+				if (data != null) {
+					window.location = `./user_info`;					
+				} else{
+					window.location = `/`;
+					alert("Account or password is incorrect!");
+				}							
+			}).fail(function(jqXHR, textStatus, error){
+				alert(error);
+				console.log(textStatus);
+				console.log(error);
+				console.log(jqXHR);
+			});
+		});
+	</script>
+</body>
+</html>

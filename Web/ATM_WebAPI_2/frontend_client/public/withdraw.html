@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Withdraw</title>
+		<meta charset="utf-8">
+	</head>
+	<body style="background-color: #BBDEFB">
+
+		<div style="width: 100%; text-align: center;">
+			<button id="user_infor" onclick="dashboard()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">Dashboard</button>
+			<button id="user_infor" onclick="user_info()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">User Information</button>
+			<button id="withdraw" onclick="withdraw()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">Withdraw</button>
+			<button id="transfer" onclick="transfer()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">transfer</button>
+			<button id="internal_transfer" onclick="internal_transfer()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">internal_transfer</button>
+			<button id="transfer" onclick="history()" style="width: 15%; height: 50px; background-color: #1A5276; font-size: 20px; color: rgb(255,255,255); border-style: none;">history</button>
+		</div>
+		<div id="btn_layout" style="width: 100%;">		
+			<div style="width: 40%; float: left; text-align: right; margin-top: 24px;">
+				<button id="btn1" onclick="withdraw_1()" style="width: 60%; height: 80px; background-color: #F5B041; color: rgb(255,255,255); border-style: none; font-size: 24px;">[̲̅$̲̅(̲̅1000000)̲̅$̲̅]</button>
+				<button id="btn2" onclick="withdraw_2()" style="width: 60%; height: 80px; background-color: #F5B041; color: rgb(255,255,255); border-style: none; margin-top: 24px;font-size: 24px;">[̲̅$̲̅(̲̅2000000)̲̅$̲̅]</button>	
+			</div>
+			<div style="width: 40%; float: right;text-align: left; margin-top: 24px;">
+				<button id="btn3" onclick="withdraw_5()" style="width: 60%; height: 80px; background-color: #F5B041; color: rgb(255,255,255); border-style: none;font-size: 24px;">[̲̅$̲̅(̲̅5000000)̲̅$̲̅]</button>
+				<button id="btnother" onclick="withdraw_other()" style="width: 60%; height: 80px; background-color: #F5B041; color: rgb(255,255,255); border-style: none;  margin-top: 24px;font-size: 24px;">Input amount</button>	
+			</div>
+			
+		</div>
+
+			<div id="input_layout"  style="position: absolute; width: 100%; visibility: hidden; font-size: 20px; height: 70%; text-align: center; margin-top: 24px;">
+				<label style="width: 100%; height: 50px; ">The number of money must be multiple of 50000!</label>
+				<br/>
+				<input type="number" id="input_money" name="" style="width: 50%; height: 50px;margin-top: 24px; font-size: 24px; "><div><br/>
+				<button tyle="width: 100%; height: 50px;" onclick="withdraw_other_number()" style="width: 50%; height: 50px;border-style: none; background-color: #1A5276; color: rgb(255,255,255); font-size: 24px;">Continue</button>
+			</div>
+	<script src="/assets/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$.ajax({
+		          url: 'http://localhost:3000/account/isLogined',
+		          dataType: 'json',
+		          timeout: 10000
+		        }).done(function(data){
+		          if (data.message == "fail"){
+		              alert("You need to login first!");
+		              window.location = `./`;
+		          }
+		        });
+		    });
+		</script>
+	<script type="text/javascript">
+		function withdraw_1(argument) {
+			 $.ajax({
+	            url: `http://localhost:3000/account/withdraw?amount=1000000`,
+	            dataType: 'json',
+	            type:'POST',
+	            timeout: 10000
+	          }).done(function(data){
+	            
+	              alert(data.message);              
+	            
+	          }).fail(function(jqXHR, textStatus, error){
+	            alert("Task fail!");
+	            console.log(textStatus);
+	            console.log(error);
+	            console.log(jqXHR);
+	          });   
+		}
+	</script>
+
+	<script type="text/javascript">
+		function withdraw_2(argument) {
+			 $.ajax({
+	            url: `http://localhost:3000/account/withdraw?amount=1000000`,
+	            dataType: 'json',
+	            type:'POST',
+	            timeout: 10000
+	          }).done(function(data){
+	            
+	              alert(data.message);              
+	            
+	          }).fail(function(jqXHR, textStatus, error){
+	            alert("Task fail!");
+	            console.log(textStatus);
+	            console.log(error);
+	            console.log(jqXHR);
+	          });   
+		}
+	</script>
+
+	<script type="text/javascript">
+		function withdraw_5(argument) {
+			 $.ajax({
+	            url: `http://localhost:3000/account/withdraw?amount=1000000`,
+	            dataType: 'json',
+	            type:'POST',
+	            timeout: 10000
+	          }).done(function(data){
+	            
+	              alert(data.message);              
+	            
+	          }).fail(function(jqXHR, textStatus, error){
+	            alert("Task fail!");
+	            console.log(textStatus);
+	            console.log(error);
+	            console.log(jqXHR);
+	          });   
+		}
+	</script>
+
+	<script type="text/javascript">
+		function withdraw_other_number() {
+			var input_money = document.getElementById("input_money").value;
+			 $.ajax({
+	            url: `http://localhost:3000/account/withdraw?amount=${input_money}`,
+	            dataType: 'json',
+	            type:'POST',
+	            timeout: 10000
+	          }).done(function(data){
+	            
+	              alert(data.message); 
+	              document.getElementById("input_money").value = "";             
+	            
+	          }).fail(function(jqXHR, textStatus, error){
+	            alert("Task fail!");
+	            console.log(textStatus);
+	            console.log(error);
+	            console.log(jqXHR);
+	          });   
+		}
+	</script>
+
+	<script type="text/javascript">
+		function withdraw_other(argument) {
+			 document.getElementById("input_layout").style.visibility = "visible";
+			 document.getElementById("btn_layout").style.visibility = "hidden"; 
+		}
+	</script>
+
+	<script type="text/javascript">
+		function withdraw(){
+			window.location = `./withdraw`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function history(){
+			window.location = `./history`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function user_info(){
+			window.location = `./user_info`;
+		}
+	</script>
+
+<script type="text/javascript">
+		function internal_transfer(){
+			window.location = `./internal_transfer`;
+		}
+	</script>
+
+	<script type="text/javascript">
+		function transfer(){
+			window.location = `./transfer`;
+		}
+	</script>
+
+	<script type="text/javascript">
+			function dashboard(){
+				window.location = `./dashboard`;
+			}
+		</script>
+</body>
+</html>

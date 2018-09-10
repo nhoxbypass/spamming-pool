@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FVDict.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FVDict_EnViTranslationServiceProxy_EnViTranslationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:2270/EnViTranslationService.asmx</Value>
+    </Setting>
+    <Setting Name="FVDict_FrEnTranslationServiceProxy_FrEnTranslationService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:2270/FrEnTranslationService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

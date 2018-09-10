@@ -1,0 +1,58 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <title>Bé tập tính</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<nav>
+    <div id="title">Bé tập tính</div>
+</nav>
+
+<div id="content">
+    <table>
+        <tr>
+            <td class="label-text">Số thứ nhất</td>
+            <td>
+                <input id="first_input" class="input" type="text"/>
+            </td>
+            <td>
+                <input id="button_add" class="operator-button" type="radio"/> Cộng
+                <input id="button_sub" class="operator-button" type="radio"/> Trừ
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label-text">Số thứ hai</td>
+            <td>
+                <input id="second_input" class="input" type="text"/>
+            </td>
+            <td>
+                <input id="button_mul" class="operator-button" type="radio"/> Nhân
+                <input id="button_div" class="operator-button" type="radio"/> Chia
+            </td>
+        </tr>
+
+        <tr>
+            <td class="label-text">Kết quả</td>
+            <td>
+                <input id="result" disabled="disabled" type="text"/>
+            </td>
+            <td>
+                <button id="calc_button" type="button">
+                    <img src="images/calc.ico" alt="Tính toán" width="40" height="40"> Tính toán
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td id="alert_box" colspan="3">
+                <p id="error_msg"></p>
+            </td>
+        </tr>
+    </table>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
