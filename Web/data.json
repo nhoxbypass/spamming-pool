@@ -1,0 +1,50 @@
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("591b080ca76fef202019ec59"),
+	"dob" : "16/02/1996",
+	"first_name" : "Nha",
+	"gender" : "female",
+	"last_name" : "Tran",
+	"middle_name" : "Thi",
+	"salary" : NumberInt("732")
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("591b0830a76fef202019ec5a"),
+	"dob" : "22/12/1996",
+	"first_name" : "Tam",
+	"gender" : "male",
+	"last_name" : "Doan",
+	"middle_name" : "Hieu",
+	"salary" : NumberInt("394")
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("591b083ea76fef202019ec5b"),
+	"dob" : "12/12/1996",
+	"first_name" : "Nguyen",
+	"gender" : "male",
+	"last_name" : "Vo",
+	"middle_name" : "Dang",
+	"salary" : NumberInt("902")
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("591b084fa76fef202019ec5c"),
+	"dob" : "05/06/1996",
+	"first_name" : "Huyen",
+	"gender" : "female",
+	"last_name" : "Doan",
+	"middle_name" : "Phuong",
+	"salary" : NumberInt("387")
+},
+{
+	"__v" : NumberInt("0"),
+	"_id" : ObjectId("591b085fa76fef202019ec5d"),
+	"dob" : "12/12/1996",
+	"first_name" : "Ngan",
+	"gender" : "female",
+	"last_name" : "Nguyen",
+	"middle_name" : "Song",
+	"salary" : NumberInt("898")
+},

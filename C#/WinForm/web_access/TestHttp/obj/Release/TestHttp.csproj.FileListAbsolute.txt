@@ -1,0 +1,9 @@
+G:\Coding\C#\web_access\TestHttp\bin\Release\TestHttp.exe.config
+G:\Coding\C#\web_access\TestHttp\bin\Release\TestHttp.exe
+G:\Coding\C#\web_access\TestHttp\bin\Release\TestHttp.pdb
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.csprojResolveAssemblyReference.cache
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.Form1.resources
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.Properties.Resources.resources
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.csproj.GenerateResource.Cache
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.exe
+G:\Coding\C#\web_access\TestHttp\obj\Release\TestHttp.pdb

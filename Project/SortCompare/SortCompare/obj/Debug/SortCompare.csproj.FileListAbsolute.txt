@@ -1,0 +1,12 @@
+F:\Coding\Project\SortCompare\SortCompare\bin\Debug\SortCompare.exe.config
+F:\Coding\Project\SortCompare\SortCompare\bin\Debug\SortCompare.exe
+F:\Coding\Project\SortCompare\SortCompare\bin\Debug\SortCompare.pdb
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.csprojResolveAssemblyReference.cache
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.Form1.resources
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.Properties.Resources.resources
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.csproj.GenerateResource.Cache
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.exe
+F:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.pdb
+G:\Coding\Project\SortCompare\SortCompare\bin\Debug\SortCompare.exe.config
+G:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.exe
+G:\Coding\Project\SortCompare\SortCompare\obj\Debug\SortCompare.pdb

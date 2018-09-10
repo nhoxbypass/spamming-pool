@@ -1,0 +1,6 @@
+D:\Coding\C#\Console\TestConstructor\TestConstructor\bin\Debug\TestConstructor.exe.config
+D:\Coding\C#\Console\TestConstructor\TestConstructor\bin\Debug\TestConstructor.exe
+D:\Coding\C#\Console\TestConstructor\TestConstructor\bin\Debug\TestConstructor.pdb
+D:\Coding\C#\Console\TestConstructor\TestConstructor\obj\Debug\TestConstructor.csprojResolveAssemblyReference.cache
+D:\Coding\C#\Console\TestConstructor\TestConstructor\obj\Debug\TestConstructor.exe
+D:\Coding\C#\Console\TestConstructor\TestConstructor\obj\Debug\TestConstructor.pdb

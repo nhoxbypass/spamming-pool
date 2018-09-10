@@ -1,0 +1,13 @@
+
+#define MAX_LOADSTRING 100
+#define VK_CHAR_C	0x43
+
+// Global Variables:
+HINSTANCE hInst;								// current instance
+TCHAR szTitle[MAX_LOADSTRING];					// The title bar text
+TCHAR szWindowClass[MAX_LOADSTRING];			// the main window class name
+HWND g_hWnd;
+
+//
+WOWY - EMMMMM ft. NAM HƯƠNG (LIVE!'S OFFICIAL VIDEO)
+Chính thức ra mắt!

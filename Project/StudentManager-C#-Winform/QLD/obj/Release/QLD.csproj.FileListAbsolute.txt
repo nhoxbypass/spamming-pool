@@ -1,0 +1,11 @@
+F:\Coding\Project\StudentManager-C#-Winform\QLD\bin\Release\QLD.exe.config
+F:\Coding\Project\StudentManager-C#-Winform\QLD\bin\Release\QLD.exe
+F:\Coding\Project\StudentManager-C#-Winform\QLD\bin\Release\QLD.pdb
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.csprojResolveAssemblyReference.cache
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.PopupForm.resources
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.LoginForm.resources
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.MainForm.resources
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.Properties.Resources.resources
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.csproj.GenerateResource.Cache
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.exe
+F:\Coding\Project\StudentManager-C#-Winform\QLD\obj\Release\QLD.pdb

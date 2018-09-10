@@ -1,0 +1,9 @@
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\bin\Debug\DemoPaint.exe.config
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\bin\Debug\DemoPaint.exe
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\bin\Debug\DemoPaint.pdb
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.csprojResolveAssemblyReference.cache
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.Form1.resources
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.Properties.Resources.resources
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.csproj.GenerateResource.Cache
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.exe
+F:\Coding\C#\Proj\DemoPaint\DemoPaint\obj\Debug\DemoPaint.pdb

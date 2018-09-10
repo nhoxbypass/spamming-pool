@@ -1,0 +1,4 @@
+G:\Coding\CC++\ChatAppUsingSocket\myLib\bin\Debug\myLib.dll
+G:\Coding\CC++\ChatAppUsingSocket\myLib\bin\Debug\myLib.pdb
+G:\Coding\CC++\ChatAppUsingSocket\myLib\obj\Debug\myLib.dll
+G:\Coding\CC++\ChatAppUsingSocket\myLib\obj\Debug\myLib.pdb

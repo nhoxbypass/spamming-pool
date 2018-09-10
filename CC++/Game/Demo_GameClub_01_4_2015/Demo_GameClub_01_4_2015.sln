@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_Beginning", "Demo_Beginning\Demo_Beginning.vcxproj", "{95429299-15D9-4F0F-B950-7C51D1CE60BB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo_GameCar", "Demo_GameCar\Demo_GameCar.vcxproj", "{2748CCC3-AF5E-41DF-974C-1175B6F45E20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95429299-15D9-4F0F-B950-7C51D1CE60BB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95429299-15D9-4F0F-B950-7C51D1CE60BB}.Debug|Win32.Build.0 = Debug|Win32
+		{95429299-15D9-4F0F-B950-7C51D1CE60BB}.Release|Win32.ActiveCfg = Release|Win32
+		{95429299-15D9-4F0F-B950-7C51D1CE60BB}.Release|Win32.Build.0 = Release|Win32
+		{2748CCC3-AF5E-41DF-974C-1175B6F45E20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2748CCC3-AF5E-41DF-974C-1175B6F45E20}.Debug|Win32.Build.0 = Debug|Win32
+		{2748CCC3-AF5E-41DF-974C-1175B6F45E20}.Release|Win32.ActiveCfg = Release|Win32
+		{2748CCC3-AF5E-41DF-974C-1175B6F45E20}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

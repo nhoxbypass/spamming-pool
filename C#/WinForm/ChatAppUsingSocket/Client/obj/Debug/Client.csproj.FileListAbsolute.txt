@@ -1,0 +1,11 @@
+G:\Coding\CC++\ChatAppUsingSocket\Client\bin\Debug\Client.exe.config
+G:\Coding\CC++\ChatAppUsingSocket\Client\bin\Debug\Client.exe
+G:\Coding\CC++\ChatAppUsingSocket\Client\bin\Debug\Client.pdb
+G:\Coding\CC++\ChatAppUsingSocket\Client\bin\Debug\myLib.dll
+G:\Coding\CC++\ChatAppUsingSocket\Client\bin\Debug\myLib.pdb
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.Form1.resources
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.Properties.Resources.resources
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.exe
+G:\Coding\CC++\ChatAppUsingSocket\Client\obj\Debug\Client.pdb

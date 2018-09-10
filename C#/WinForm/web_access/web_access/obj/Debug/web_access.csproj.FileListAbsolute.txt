@@ -1,0 +1,10 @@
+F:\Coding\C#\web_access\web_access\bin\Debug\web_access.exe.config
+E:\Coding\C#\WinForm\web_access\web_access\bin\Debug\web_access.exe.config
+E:\Coding\C#\WinForm\web_access\web_access\bin\Debug\web_access.exe
+E:\Coding\C#\WinForm\web_access\web_access\bin\Debug\web_access.pdb
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.csprojResolveAssemblyReference.cache
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.Form1.resources
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.Properties.Resources.resources
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.csproj.GenerateResource.Cache
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.exe
+E:\Coding\C#\WinForm\web_access\web_access\obj\Debug\web_access.pdb

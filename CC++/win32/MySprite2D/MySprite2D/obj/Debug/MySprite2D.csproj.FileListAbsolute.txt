@@ -1,0 +1,9 @@
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\bin\Debug\MySprite2D.exe.config
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\bin\Debug\MySprite2D.exe
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\bin\Debug\MySprite2D.pdb
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.MainForm.resources
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.Properties.Resources.resources
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.csproj.GenerateResource.Cache
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.exe
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.pdb
+G:\Coding\CC++\win32\MySprite2D\MySprite2D\obj\Debug\MySprite2D.csprojResolveAssemblyReference.cache

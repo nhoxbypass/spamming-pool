@@ -1,0 +1,11 @@
+//Texture
+"Resources/Textures/GamePlay/backgroundFlappy.tga" 0
+"Resources/Textures/GamePlay/bird.tga" 0
+"Resources/Textures/GamePlay/ground.tga" 0
+"Resources/Textures/GamePlay/pipe.tga" 0
+//Mesh
+//Shader
+"Resources/Shaders/SpriteShaderVS.vsh" 
+"Resources/Shaders/SpriteShaderFS.fsh"  
+0  
+//End

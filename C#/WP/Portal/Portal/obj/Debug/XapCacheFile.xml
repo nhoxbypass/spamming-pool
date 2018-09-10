@@ -1,0 +1,13 @@
+﻿<xapCache source="F:\Coding\C#\WP\Portal\Portal\Bin\Debug\Portal_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="11/14/2015 12:58:10 AM">
+  <file source="F:\Coding\C#\WP\Portal\Portal\obj\Debug\Portal.dll" archivePath="Portal.dll" lastWriteTime="11/14/2015 12:58:10 AM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Resources\logo-khtn.png" archivePath="Resources\logo-khtn.png" lastWriteTime="11/12/2015 9:46:51 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="11/12/2015 9:37:26 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="11/12/2015 9:36:57 PM" />
+  <file source="F:\Coding\C#\WP\Portal\Portal\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="11/12/2015 9:37:28 PM" />
+</xapCache>
