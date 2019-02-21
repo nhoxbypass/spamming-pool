@@ -2,11 +2,11 @@
 
 Need to show app store dialog inside current app like this:
 
-![Demo inline dialog](/img/demo.png)
+![Demo inline dialog](./img/demo.png)
 
 Fake KakaoTalk app that show inline app store dialog
 
-![Fake KakaoTalk](/img/fake_kakao_talk.png)
+![Fake KakaoTalk](./img/fake_kakao_talk.png)
 
 
 ## Conclusion
@@ -17,7 +17,7 @@ This feature of Play Store app is **exclusive for some selected Google's partner
 
 Google Play Store sẽ check package name của app muốn hiển thị dialog, nếu match với list partner apps thì show, nếu ko sẽ log lỗi `Called from untrusted package`
 
-![Google play store app partner check](g_play_store_partner.png)
+![Google play store app partner check](./img/g_play_store_partner.png)
 
 
 
