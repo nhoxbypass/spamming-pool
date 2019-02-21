@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   android:padding="24dp"
+                                                   tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:layout_constraintBottom_toTopOf="@id/et_package_name"
+              android:text="Input app package name"/>
+
+    <EditText android:id="@+id/et_package_name"
+              android:layout_width="match_parent"
+              android:text="com.iceteaviet.fastfoodfinder"
+              app:layout_constraintBottom_toTopOf="@id/btn_open_play_store"
+              android:layout_marginTop="24dp"
+              android:layout_height="wrap_content"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_open_play_store"
+            android:text="Open Google Play Store"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_open_inline_app_dialog"
+            android:text="Open Inline App Dialog"
+            app:layout_constraintTop_toBottomOf="@id/btn_open_play_store"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+    />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
