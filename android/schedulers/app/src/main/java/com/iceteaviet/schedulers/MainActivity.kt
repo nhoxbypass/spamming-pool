@@ -30,6 +30,15 @@ class MainActivity : AppCompatActivity() {
                 count++
                 tvCount.text = count.toString()
             }, 3, TimeUnit.SECONDS)
+
+            /*HandlerAndroidSchedulers.mainThread().debounce(ExecutorAndroidSchedulers.Key.TEST_KEY, object : Callback<Any> {
+                override fun callback(result: Any) {
+                    Log.d("Genius", "On result debounce!")
+
+                    count++
+                    tvCount.text = count.toString()
+                }
+            }, 3, TimeUnit.SECONDS)*/
         }
     }
 

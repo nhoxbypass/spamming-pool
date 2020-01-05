@@ -10,13 +10,14 @@ import java.util.concurrent.TimeUnit
 /**
  * Android schedulers using [java.util.concurrent.Executor]
  */
-class ExecutorAndroidSchedulers private constructor(
-        /**
-         * Schedulers
-         */
-        private val handler: Handler) {
+class ExecutorAndroidSchedulers private constructor(private val handler: Handler) {
+
+    /**
+     * Schedulers
+     */
     private val scheduledExecutor = Executors.newSingleThreadScheduledExecutor()
-    private val emissions = ConcurrentHashMap<Any, Future<*>?>()
+    private val emissions = ConcurrentHashMap<Any, Future<*>>()
+
     /**
      * Debounce {@param runnable} by {@param delay}
      * Schedules it to be executed after given delay, or cancels its execution
@@ -57,7 +58,7 @@ class ExecutorAndroidSchedulers private constructor(
      * Key to determine the group ID of debounce / throttle
      */
     object Key {
-        const val TEST_KEY = "TEST_KEY"
+        const val TEST_KEY = 1
     }
 
     companion object {
